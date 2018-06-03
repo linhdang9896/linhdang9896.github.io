@@ -39,6 +39,21 @@
         $('#nav').toggle();
     });
 
+    $(window).resize(function(){
+ 
+        var width = $(window).width();
+        console.log(width);
+        if (width > 768){
+            $('ul#nav').addClass('expand-menu');
+        }
+        else{
+            $('ul#nav').removeClass('expand-menu');
+        }
+    });
+
+/*-----------------End Toggle Menu ----------------*/
+
+
 /*----------------------------------------------------*/
 /* Highlight the current section in the navigation bar
 ------------------------------------------------------*/
