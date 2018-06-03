@@ -39,7 +39,9 @@ header {
    text-align: center;
    overflow: hidden;
 }
-
+a#anchor-contact {
+  z-index: 999!important;
+}
 .contact-btn {
   position: fixed;
   top: 0;
